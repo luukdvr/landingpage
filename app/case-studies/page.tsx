@@ -63,7 +63,7 @@ export default function CaseStudiesPage() {
             Echte resultaten van sales teams zoals jij
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Ontdek hoe onze klanten hun meeting volume hebben verdrievoudigd met Level2B's AI-powered automation.
+              Ontdek hoe onze klanten hun meeting volume hebben verdrievoudigd met Level2B&apos;s AI-powered automation.
           </p>
         </div>
       </section>

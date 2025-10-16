@@ -198,7 +198,7 @@ export default function SecurityPage() {
             <div className="bg-white border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold mb-2">Kunnen jullie mijn Gmail wachtwoord zien?</h3>
               <p className="text-slate-600">
-                Nee, we gebruiken OAuth tokens. Wij zien geen wachtwoorden, nooit. Je authoriseert Level2B via Google's veilige flow.
+                Nee, we gebruiken OAuth tokens. Wij zien geen wachtwoorden, nooit. Je authoriseert Level2B via Google&apos;s veilige flow.
               </p>
             </div>
 
@@ -212,7 +212,7 @@ export default function SecurityPage() {
             <div className="bg-white border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold mb-2">Kan Level2B emails versturen zonder mijn toestemming?</h3>
               <p className="text-slate-600">
-                Absoluut niet. Elke campagne vereist jouw expliciete "send" actie. Wij kunnen niet namens jou mailen zonder je toestemming.
+                Absoluut niet. Elke campagne vereist jouw expliciete &quot;send&quot; actie. Wij kunnen niet namens jou mailen zonder je toestemming.
               </p>
             </div>
 
