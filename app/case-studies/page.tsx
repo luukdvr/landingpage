@@ -32,7 +32,7 @@ const caseStudies = [
       after: "25 meetings/month",
       replyRate: "6% → 18%",
     },
-    quote: "As a small team, we didn't have time for manual cold emailing. Level2B gave us the scale of a large sales team, without the overhead.",
+  quote: "As a small team, we didn&apos;t have time for manual cold emailing. Level2B gave us the scale of a large sales team, without the overhead.",
     author: "Lisa van Dam",
     role: "Head of Sales",
     keyTakeaway: "Sentiment analysis helped the team respond quickly to warm leads. With Calendly integration, 80% of positive replies were instantly converted into meetings.",

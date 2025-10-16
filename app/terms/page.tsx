@@ -90,7 +90,7 @@ export default function TermsPage() {
 
           <h2>9. Liability Limits</h2>
           <p>
-            Level2B is geleverd "as is". We zijn niet aansprakelijk voor:
+            Level2B is delivered &quot;as is&quot;. We are not liable for:
           </p>
           <ul>
             <li>Verloren omzet door gemiste emails of campagnes</li>

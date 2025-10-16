@@ -15,8 +15,8 @@ export default function AboutPage() {
             Sales outreach for everyone
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We believe good leads shouldn't be lost due to manual processes. 
-            That's why we automate cold email outreach — without losing the human touch.
+            We believe good leads shouldn&apos;t be lost due to manual processes. 
+            That&apos;s why we automate cold email outreach — without losing the human touch.
           </p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-6">Our mission</h2>
             <p className="text-lg text-slate-600 mb-8">
               Level2B makes sales outreach accessible for every B2B business. We believe good leads 
-              shouldn't be lost due to manual processes — that's why we automate it without losing the 
+              shouldn&apos;t be lost due to manual processes — that&apos;s why we automate it without losing the 
               human touch.
             </p>
             <p className="text-lg text-slate-600 mb-8">
@@ -65,8 +65,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Customer success</h3>
               <p className="text-slate-600">
-                Jouw groei is ons succes. We investeren in support, onboarding en features die 
-                écht impact maken op je resultaten.
+                Your growth is our success. We invest in support, onboarding, and features that 
+                truly make an impact on your results.
               </p>
             </div>
 
@@ -76,8 +76,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Innovation</h3>
               <p className="text-slate-600">
-                Sales evolueert, en wij evolueren mee. We luisteren naar feedback en bouwen 
-                continu nieuwe features die het verschil maken.
+                Sales evolves, and we evolve with it. We listen to feedback and continuously build 
+                new features that make a difference.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function AboutPage() {
 
       <section className="py-16">
         <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-3xl font-bold mb-8">Ons verhaal</h2>
+          <h2 className="text-3xl font-bold mb-8">Our story</h2>
           
           <div className="space-y-8">
             <div className="flex gap-8 items-start">
@@ -96,11 +96,11 @@ export default function AboutPage() {
                 </span>
               </div>
               <div className="flex-1">
-                <h3 className="font-semibold text-lg mb-2">De start</h3>
+                <h3 className="font-semibold text-lg mb-2">The beginning</h3>
                 <p className="text-slate-600">
-                  Level2B werd opgericht uit frustratie met bestaande sales tools. Te complex, te duur, 
-                  en gefocust op grote enterprises. Wij wilden iets bouwen voor groeibedrijven: simpel, 
-                  effectief, betaalbaar.
+                  Level2B was founded out of frustration with existing sales tools. Too complex, too expensive, 
+                  and focused on large enterprises. We wanted to build something for growth companies: simple, 
+                  effective, affordable.
                 </p>
               </div>
             </div>
@@ -112,10 +112,10 @@ export default function AboutPage() {
                 </span>
               </div>
               <div className="flex-1">
-                <h3 className="font-semibold text-lg mb-2">Schalen & leren</h3>
+                <h3 className="font-semibold text-lg mb-2">Scaling & learning</h3>
                 <p className="text-slate-600">
-                  500+ meetings geboekt voor onze klanten, 100+ teams die Level2B dagelijks gebruiken. 
-                  We leren elke dag bij en investeren in features die écht impact maken.
+                  500+ meetings booked for our customers, 100+ teams using Level2B daily. 
+                  We learn every day and invest in features that truly make an impact.
                 </p>
               </div>
             </div>
@@ -127,10 +127,10 @@ export default function AboutPage() {
                 </span>
               </div>
               <div className="flex-1">
-                <h3 className="font-semibold text-lg mb-2">De toekomst</h3>
+                <h3 className="font-semibold text-lg mb-2">The future</h3>
                 <p className="text-slate-600">
-                  API toegang, meer CRM-integraties, enterprise features, en AI-powered insights die 
-                  je helpen nog slimmere campagnes te draaien. We zijn net begonnen.
+                  API access, more CRM integrations, enterprise features, and AI-powered insights that 
+                  help you run even smarter campaigns. We're just getting started.
                 </p>
               </div>
             </div>
@@ -140,13 +140,13 @@ export default function AboutPage() {
 
       <section className="py-16 bg-gradient-to-br from-brand-600 to-accent-600 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Wil je deel uitmaken van ons verhaal?</h2>
+          <h2 className="text-3xl font-bold mb-6">Want to be part of our story?</h2>
           <p className="text-lg text-white/90 mb-8">
-            Start je trial en ervaar zelf hoe Level2B je sales proces transformeert.
+            Start your trial and experience for yourself how Level2B transforms your sales process.
           </p>
           <a href="/start-trial">
             <Button size="lg" className="bg-white text-brand-600 hover:bg-slate-50">
-              Start gratis trial
+              Start free trial
             </Button>
           </a>
         </div>

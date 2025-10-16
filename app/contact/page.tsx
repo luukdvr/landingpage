@@ -54,7 +54,7 @@ export default function ContactPage() {
             Get in touch
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-        Questions about Level2B? Interested in starting a free trial? We'd love to hear from you.
+            Questions about Level2B? Interested in starting a free trial? We&apos;d love to hear from you.
           </p>
         </div>
       </section>
@@ -143,7 +143,7 @@ export default function ContactPage() {
             <div>
               <h3 className="font-semibold text-lg mb-2">Sales & Demo's</h3>
               <p className="text-slate-600 mb-2">
-             Want to see Level2B in action? Start your free trial and experience the onboarding flow.
+                Want to see Level2B in action? Start your free trial and experience the onboarding flow.
               </p>
               <a href="mailto:sales@level2b.com" className="text-brand-600 hover:text-brand-700">
                 sales@level2b.com
