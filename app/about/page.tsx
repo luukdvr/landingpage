@@ -130,7 +130,7 @@ export default function AboutPage() {
                 <h3 className="font-semibold text-lg mb-2">The future</h3>
                 <p className="text-slate-600">
                   API access, more CRM integrations, enterprise features, and AI-powered insights that 
-                  help you run even smarter campaigns. We're just getting started.
+                  help you run even smarter campaigns. We&apos;re just getting started.
                 </p>
               </div>
             </div>

@@ -103,9 +103,9 @@ export default function CaseStudiesPage() {
                     </div>
                     
                     <blockquote className="border-l-4 border-brand-600 pl-6 mb-6">
-                      <p className="text-lg text-slate-700 italic mb-3">&ldquo;{cs.quote}&rdquo;</p>
+                      <p className="text-lg text-slate-700 italic mb-3">&ldquo;{cs.quote.replace(/'/g, "&apos;")}&rdquo;</p>
                       <footer className="text-sm">
-                        <strong>{cs.author}</strong>, {cs.role}
+                        <strong>{cs.author.replace(/'/g, "&apos;")}</strong>, {cs.role.replace(/'/g, "&apos;")}
                       </footer>
                     </blockquote>
                     

@@ -141,7 +141,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-4xl px-4">
           <div className="grid md:grid-cols-2 gap-8 text-center">
             <div>
-              <h3 className="font-semibold text-lg mb-2">Sales & Demo's</h3>
+              <h3 className="font-semibold text-lg mb-2">Sales &amp; Free Trial</h3>
               <p className="text-slate-600 mb-2">
                 Want to see Level2B in action? Start your free trial and experience the onboarding flow.
               </p>
