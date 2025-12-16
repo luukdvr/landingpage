@@ -1,16 +1,16 @@
 const testimonials = [
   {
-    quote: "Binnen 2 weken had ik 12 nieuwe meetings. Level2B heeft ons sales proces getransformeerd.",
+    quote: "Within 2 weeks I had 12 new meetings. Level2B has transformed our sales process.",
     author: "Jan",
     role: "SaaS Founder",
   },
   {
-    quote: "Eindelijk een tool die levert: meer meetings, minder gedoe.",
+    quote: "Finally a tool that delivers: more meetings, less hassle.",
     author: "Lisa",
     role: "Sales Lead",
   },
   {
-    quote: "De AI templates voelen menselijk aan. Onze reply rate is verdubbeld.",
+    quote: "The smart templates feel human. Our reply rate has doubled.",
     author: "Mark",
     role: "BDR",
   },
@@ -21,8 +21,8 @@ export function Testimonials() {
     <section className="py-20 bg-white">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Wat onze klanten zeggen</h2>
-          <p className="text-xl text-charcoal-600">Echte resultaten van sales professionals zoals jij.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">What our customers say</h2>
+          <p className="text-xl text-charcoal-600">Real results from sales professionals like you.</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">

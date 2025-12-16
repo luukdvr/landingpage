@@ -4,36 +4,36 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
   {
-    question: "Hoe helpt Level2B me meer deals te sluiten?",
-    answer: "Level2B combineert AI email templates met centrale lead tracking en real-time analytics. We automatiseren tijdrovend handwerk zodat jij je kunt focussen op het sluiten van deals. Resultaat: betere emails, meer inzicht, meer conversies.",
+    question: "How does Level2B help me close more deals?",
+    answer: "Level2B combines smart email templates with centralised lead tracking and real-time analytics. We automate time-consuming manual work so you can focus on closing deals. Result: better emails, more insight, more conversions.",
   },
   {
-    question: "Kunnen jullie mijn emails lezen?",
-    answer: "Nee, we hebben geen toegang tot je inbox. Level2B helpt alleen met het genereren van emails en het organiseren van je leads. Je behoudt volledige controle over je data.",
+    question: "Can you read my emails?",
+    answer: "No, we have no access to your inbox. Level2B only helps with generating emails and organising your leads. You retain full control over your data.",
   },
   {
-    question: "Wat als ik weinig response krijg?",
-    answer: "Het dashboard geeft inzicht in je email performance en conversie rates. Onze AI leert wat werkt en ons support team helpt je met messaging en best practices voor optimale resultaten.",
+    question: "What if I get little response?",
+    answer: "The dashboard provides insight into your email performance and conversion rates. Our intelligent system learns what works and our support team helps you with messaging and best practices for optimal results.",
   },
   {
-    question: "Is mijn data veilig?",
-    answer: "Absoluut. End-to-end encryptie, GDPR-compliant, en je behoudt volledige controle. Zie onze security pagina voor alle details.",
+    question: "Is my data secure?",
+    answer: "Absolutely. End-to-end encryption, GDPR-compliant, and you retain full control. See our security page for all details.",
   },
   {
-    question: "Hoeveel kost Level2B?",
-    answer: "Vanaf €49/maand. 14-dagen gratis trial, geen creditcard nodig. Bekijk onze pricing pagina voor alle tiers en features.",
+    question: "How much does Level2B cost?",
+    answer: "From £49/month. 14-day free trial, no credit card required. See our pricing page for all tiers and features.",
   },
   {
-    question: "Kan ik altijd opzeggen?",
-    answer: "Ja, altijd. Geen lock-in contracten, geen verplichtingen.",
+    question: "Can I cancel anytime?",
+    answer: "Yes, always. No lock-in contracts, no obligations.",
   },
   {
-    question: "Welke integraties bieden jullie?",
-    answer: "Calendly (meetings), Gmail/Outlook (email), Zapier/HubSpot (CRM). Meer integraties staan op de roadmap.",
+    question: "What integrations do you offer?",
+    answer: "Calendly (meetings), Gmail/Outlook (email), Zapier/HubSpot (CRM). More integrations are on the roadmap.",
   },
   {
-    question: "Hoe snel kan ik starten?",
-    answer: "Binnen 10 minuten na aanmelden kun je je eerste lead toevoegen en emails genereren. Onboarding duurt minder dan 5 minuten.",
+    question: "How quickly can I start?",
+    answer: "Within 10 minutes of signing up you can add your first lead and generate emails. Onboarding takes less than 5 minutes.",
   },
 ]
 
@@ -44,8 +44,8 @@ export function FAQ() {
     <section className="py-20 bg-charcoal-50">
       <div className="mx-auto max-w-3xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Veelgestelde Vragen</h2>
-          <p className="text-xl text-charcoal-600">Alles wat je moet weten over Level2B.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
+          <p className="text-xl text-charcoal-600">Everything you need to know about Level2B.</p>
         </div>
         
         <div className="space-y-4">

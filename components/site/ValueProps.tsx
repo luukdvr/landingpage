@@ -3,33 +3,33 @@ import { Mail, Users, TrendingUp, Calendar, Clock, Building2 } from "lucide-reac
 const valueProps = [
   {
     icon: Mail,
-    title: "Slimme Email Outreach met AI",
-    description: "Genereer gepersonaliseerde B2B emails met onze AI assistent. Voeg context en bedrijfsinfo toe voor optimale resultaten. Bewaar je beste templates voor hergebruik.",
+    title: "Intelligent Email Outreach",
+    description: "Generate personalised emails with our smart assistant. Add context and company information for optimal results. Save your best templates for reuse.",
   },
   {
     icon: Users,
-    title: "Centrale Lead Database",
-    description: "Beheer al je leads op één plek. Tag, filter en organiseer prospects. Voeg notes toe, track activiteiten en houd conversaties bij.",
+    title: "Centralised Lead Database",
+    description: "Manage all your leads in one place. Tag, filter and organise prospects. Add notes, track activities and maintain conversation history.",
   },
   {
     icon: TrendingUp,
-    title: "Data-Driven Beslissingen",
-    description: "Real-time inzicht in je sales pipeline. Track conversie rates, lead sources, email performance en meer. Visualiseer trends en optimaliseer je strategie.",
+    title: "Data-Driven Decisions",
+    description: "Real-time insight into your sales pipeline. Track conversion rates, lead sources, email performance and more. Visualise trends and optimise your strategy.",
   },
   {
     icon: Calendar,
-    title: "Geïntegreerde Agenda",
-    description: "Koppel je Calendly account en beheer alle sales meetings vanuit één dashboard. Automatische sync en overzichtelijke planning.",
+    title: "Integrated Calendar",
+    description: "Connect your Calendly account and manage all sales meetings from one dashboard. Automatic synchronisation and clear planning overview.",
   },
   {
     icon: Clock,
-    title: "Compleet Activiteitenoverzicht",
-    description: "Zie alle interacties met leads in één tijdlijn. Emails, notes, meetings en status changes. Mis nooit meer een belangrijke follow-up.",
+    title: "Complete Activity Timeline",
+    description: "See all interactions with leads in one timeline. Emails, notes, meetings and status changes. Never miss an important follow-up again.",
   },
   {
     icon: Building2,
-    title: "Multi-Organisatie Support",
-    description: "Beheer meerdere bedrijven of teams binnen één account. Perfect voor agencies of bedrijven met verschillende divisies.",
+    title: "Multi-Organisation Support",
+    description: "Manage multiple companies or teams within one account. Perfect for agencies or businesses with different divisions.",
   },
 ]
 
@@ -38,8 +38,8 @@ export function ValueProps() {
     <section id="features" className="py-20 bg-gradient-to-b from-terracotta-50/30 to-white">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Alles wat je nodig hebt om te groeien</h2>
-          <p className="text-xl text-charcoal-600">AI-powered features die je sales proces transformeren</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Everything you need to grow</h2>
+          <p className="text-xl text-charcoal-600">Powerful features that transform your sales process</p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

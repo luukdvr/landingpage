@@ -11,12 +11,12 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 py-20 lg:py-32 relative">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Level2B - AI-Powered B2B Sales Automation
+            Level2B - Sales Automation Platform
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Verhoog je sales efficiency met geautomatiseerde lead tracking, 
-            AI email outreach en data-driven insights. Alles wat je nodig hebt om meer deals te sluiten.
+            Increase your sales efficiency with automated lead tracking, 
+            intelligent email outreach and data-driven insights. Everything you need to close more deals.
           </p>
           
           <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
@@ -24,13 +24,13 @@ export function Hero() {
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm md:text-base">AI-gegenereerde email templates</span>
+              <span className="text-sm md:text-base">Smart email templates</span>
             </div>
             <div className="flex items-center gap-2 text-white/90">
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm md:text-base">Automatische lead tracking</span>
+              <span className="text-sm md:text-base">Automatic lead tracking</span>
             </div>
             <div className="flex items-center gap-2 text-white/90">
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -42,7 +42,7 @@ export function Hero() {
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm md:text-base">Calendly integratie</span>
+              <span className="text-sm md:text-base">Calendar integration</span>
             </div>
           </div>
           
@@ -51,13 +51,13 @@ export function Hero() {
               href="/login"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-terracotta-600 bg-white hover:bg-gray-50 rounded-lg transition-all duration-200 shadow-xl hover:shadow-2xl"
             >
-              Start Gratis
+              Get Started Free
             </a>
             <a 
               href="#features"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-white/10 hover:bg-white/20 rounded-lg border-2 border-white/30 backdrop-blur-sm transition-all duration-200"
             >
-              Bekijk Features
+              View Features
             </a>
           </div>
           

@@ -4,18 +4,18 @@ import { Button } from "../../components/ui/Button"
 const pains = [
   {
     icon: Frown,
-    title: "Te weinig meetings in je agenda?",
-    description: "Handmatige cold emailing kost uren, levert weinig respons op en je mist follow-ups. Je pipeline blijft leeg.",
+    title: "Too few meetings in your diary?",
+    description: "Manual cold emailing takes hours, delivers little response and you miss follow-ups. Your pipeline stays empty.",
   },
   {
     icon: Clock,
-    title: "Verloren tijd = verloren deals",
-    description: "Elke dag dat je geen outreach doet, loopt een concurrent voor. Sales is een nummerspel — maar jij hebt geen tijd om het te spelen.",
+    title: "Lost time = lost deals",
+    description: "Every day you don't do outreach, a competitor gets ahead. Sales is a numbers game — but you don't have time to play it.",
   },
   {
     icon: MessageSquareX,
-    title: "Inconsistente messaging schaadt je merk",
-    description: "Ad-hoc emails zonder strategie? Prospects merken het op. Je oogt onprofessioneel en verliest vertrouwen.",
+    title: "Inconsistent messaging damages your brand",
+    description: "Ad-hoc emails without strategy? Prospects notice. You appear unprofessional and lose trust.",
   },
 ]
 
@@ -24,8 +24,8 @@ export function PainPoints() {
     <section className="py-20 bg-charcoal-50">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Herken je dit?</h2>
-          <p className="text-xl text-charcoal-600">Deze problemen kosten je elke dag omzet.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Do you recognise this?</h2>
+          <p className="text-xl text-charcoal-600">These problems cost you revenue every day.</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ export function PainPoints() {
         
         <div className="mt-12 text-center">
           <a href="/login">
-            <Button size="lg">Laat ons het voor je oplossen — start nu</Button>
+            <Button size="lg">Let us solve it for you — start now</Button>
           </a>
         </div>
       </div>

@@ -1,15 +1,15 @@
 const metrics = [
   {
-    value: "10+ Uur",
-    label: "Bespaard per week per sales rep",
+    value: "10+ Hours",
+    label: "Saved per week per sales rep",
   },
   {
     value: "3x",
-    label: "Snellere email outreach met AI",
+    label: "Faster email outreach",
   },
   {
     value: "50+",
-    label: "AI-gegenereerde templates beschikbaar",
+    label: "Smart templates available",
   },
   {
     value: "Real-time",
@@ -23,9 +23,9 @@ export function Metrics() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Level2B in cijfers
+            Level2B in numbers
           </h2>
-          <p className="text-white/90 text-lg">Meetbare impact op je sales proces</p>
+          <p className="text-white/90 text-lg">Measurable impact on your sales process</p>
         </div>
         <div className="grid md:grid-cols-4 gap-8 text-center">
           {metrics.map(m => (

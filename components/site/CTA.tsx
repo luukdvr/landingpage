@@ -11,11 +11,11 @@ export function CTA() {
           
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Klaar om je sales te automatiseren?
+              Ready to automate your sales?
             </h2>
             
             <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-              Start vandaag nog met Level2B. Geen creditcard nodig. Begin gratis.
+              Start with Level2B today. No credit card required. Begin free.
             </p>
             
             <a href="/login">
@@ -23,7 +23,7 @@ export function CTA() {
                 size="lg" 
                 className="bg-white text-terracotta-600 hover:bg-gray-50 shadow-xl hover:shadow-2xl text-lg px-8 py-4"
               >
-                Start Gratis
+                Get Started Free
               </Button>
             </a>
           </div>

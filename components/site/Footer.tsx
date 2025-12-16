@@ -3,7 +3,7 @@ import Link from "next/link"
 const footerLinks = {
   product: [
     { label: "Features", href: "/#features" },
-    { label: "Hoe het werkt", href: "/#how-it-works" },
+    { label: "How It Works", href: "/#how-it-works" },
     { label: "Pricing", href: "/pricing" },
   ],
   resources: [
@@ -11,12 +11,12 @@ const footerLinks = {
     { label: "Security", href: "/security" },
   ],
   company: [
-    { label: "Over Ons", href: "/about" },
+    { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },
-    { label: "Algemene Voorwaarden", href: "/terms" },
+    { label: "Terms of Service", href: "/terms" },
     { label: "Cookie Policy", href: "/cookies" },
   ],
 }

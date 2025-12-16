@@ -5,30 +5,30 @@ const steps = [
   {
     icon: Upload,
     step: "1",
-    title: "Voeg je leads toe",
-    description: "Upload een CSV of koppel je CRM. Level2B importeert automatisch naam, email, bedrijf en andere velden.",
-    quote: '"Setup in 2 minuten" — Jan, Founder',
+    title: "Add your leads",
+    description: "Upload a CSV or connect your CRM. Level2B automatically imports name, email, company and other fields.",
+    quote: '"Set up in 2 minutes" — Jan, Founder',
   },
   {
     icon: Sparkles,
     step: "2",
-    title: "Genereer AI emails",
-    description: "Onze AI helpt je in 30 seconden een sterke email te schrijven — gepersonaliseerd, professioneel, to-the-point. Of kies een bestaande template.",
+    title: "Generate smart emails",
+    description: "Our intelligent assistant helps you write a strong email in 30 seconds — personalised, professional, to-the-point. Or choose an existing template.",
     quote: null,
   },
   {
     icon: Send,
     step: "3",
-    title: "Track je outreach",
-    description: "Beheer al je emails, follow-ups en responses vanuit één dashboard. Zie real-time updates en analytics over je campagnes.",
+    title: "Track your outreach",
+    description: "Manage all your emails, follow-ups and responses from one dashboard. See real-time updates and analytics on your campaigns.",
     quote: null,
   },
   {
     icon: TrendingUp,
     step: "4",
-    title: "Optimaliseer met data",
-    description: "Track conversie rates, lead sources, email performance en meer. Gebruik insights om je strategie te verbeteren en meer deals te sluiten.",
-    quote: "Gemiddeld 3x betere response rate voor onze klanten.",
+    title: "Optimise with data",
+    description: "Track conversion rates, lead sources, email performance and more. Use insights to improve your strategy and close more deals.",
+    quote: "On average 3x better response rate for our customers.",
   },
 ]
 
@@ -37,8 +37,8 @@ export function HowItWorks() {
     <section className="py-20 bg-white">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Hoe het werkt</h2>
-          <p className="text-xl text-charcoal-600">Van leads naar deals in 4 simpele stappen.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">How it works</h2>
+          <p className="text-xl text-charcoal-600">From leads to deals in 4 simple steps.</p>
         </div>
         
         <div className="space-y-16">
@@ -79,7 +79,7 @@ export function HowItWorks() {
         
         <div className="mt-16 text-center">
           <a href="/login">
-            <Button size="lg">Klaar om te starten? Begin nu gratis</Button>
+            <Button size="lg">Ready to start? Begin free now</Button>
           </a>
         </div>
       </div>
