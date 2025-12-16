@@ -2,36 +2,36 @@ import Link from "next/link"
 
 const footerLinks = {
   product: [
-    { label: "Features", href: "/product" },
-    { label: "How it works", href: "/how-it-works" },
-    { label: "Integrations", href: "/product#integrations" },
+    { label: "Features", href: "/#features" },
+    { label: "Hoe het werkt", href: "/#how-it-works" },
+    { label: "Pricing", href: "/pricing" },
   ],
   resources: [
-    { label: "Case studies", href: "/case-studies" },
+    { label: "Case Studies", href: "/case-studies" },
     { label: "Security", href: "/security" },
   ],
   company: [
-    { label: "About", href: "/about" },
+    { label: "Over Ons", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },
-    { label: "Terms of Service", href: "/terms" },
+    { label: "Algemene Voorwaarden", href: "/terms" },
     { label: "Cookie Policy", href: "/cookies" },
   ],
 }
 
 export function Footer() {
   return (
-    <footer className="bg-slate-50 border-t border-slate-200">
+    <footer className="bg-charcoal-50 border-t border-charcoal-200">
       <div className="mx-auto max-w-7xl px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h4 className="font-semibold text-slate-900 mb-4">Product</h4>
+            <h4 className="font-semibold text-charcoal-900 mb-4">Product</h4>
             <ul className="space-y-2">
               {footerLinks.product.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-600 hover:text-slate-900 transition">
+                  <Link href={link.href} className="text-sm text-charcoal-600 hover:text-terracotta-600 transition">
                     {link.label}
                   </Link>
                 </li>
@@ -40,11 +40,11 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold text-slate-900 mb-4">Resources</h4>
+            <h4 className="font-semibold text-charcoal-900 mb-4">Resources</h4>
             <ul className="space-y-2">
               {footerLinks.resources.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-600 hover:text-slate-900 transition">
+                  <Link href={link.href} className="text-sm text-charcoal-600 hover:text-terracotta-600 transition">
                     {link.label}
                   </Link>
                 </li>
@@ -53,11 +53,11 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold text-slate-900 mb-4">Company</h4>
+            <h4 className="font-semibold text-charcoal-900 mb-4">Company</h4>
             <ul className="space-y-2">
               {footerLinks.company.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-600 hover:text-slate-900 transition">
+                  <Link href={link.href} className="text-sm text-charcoal-600 hover:text-terracotta-600 transition">
                     {link.label}
                   </Link>
                 </li>
@@ -66,11 +66,11 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold text-slate-900 mb-4">Legal</h4>
+            <h4 className="font-semibold text-charcoal-900 mb-4">Legal</h4>
             <ul className="space-y-2">
               {footerLinks.legal.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-600 hover:text-slate-900 transition">
+                  <Link href={link.href} className="text-sm text-charcoal-600 hover:text-terracotta-600 transition">
                     {link.label}
                   </Link>
                 </li>
@@ -79,8 +79,8 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-slate-600">
+        <div className="mt-12 pt-8 border-t border-charcoal-200 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-charcoal-600">
         © 2025 Level2B. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
@@ -88,7 +88,7 @@ export function Footer() {
               href="https://linkedin.com/company/level2b" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-slate-600 hover:text-slate-900 transition"
+              className="text-charcoal-600 hover:text-terracotta-600 transition"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

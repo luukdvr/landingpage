@@ -1,29 +1,39 @@
 const metrics = [
   {
-    value: "500+",
-    label: "Sales meetings booked this month",
+    value: "10+ Uur",
+    label: "Bespaard per week per sales rep",
   },
   {
-    value: "4x",
-    label: "More replies than manual emailing",
+    value: "3x",
+    label: "Snellere email outreach met AI",
   },
   {
-    value: "2 hours",
-    label: "Saved per day per sales rep",
+    value: "50+",
+    label: "AI-gegenereerde templates beschikbaar",
+  },
+  {
+    value: "Real-time",
+    label: "Analytics & insights dashboard",
   },
 ]
 
 export function Metrics() {
   return (
-    <section className="py-16">
+    <section className="py-20 bg-gradient-to-br from-terracotta-600 to-terracotta-700">
       <div className="mx-auto max-w-7xl px-4">
-        <div className="grid md:grid-cols-3 gap-8 text-center">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Level2B in cijfers
+          </h2>
+          <p className="text-white/90 text-lg">Meetbare impact op je sales proces</p>
+        </div>
+        <div className="grid md:grid-cols-4 gap-8 text-center">
           {metrics.map(m => (
-            <div key={m.label}>
-              <div className="text-4xl md:text-5xl font-bold text-brand-600 mb-2">
+            <div key={m.label} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                 {m.value}
               </div>
-              <p className="text-slate-600">{m.label}</p>
+              <p className="text-white/90">{m.label}</p>
             </div>
           ))}
         </div>

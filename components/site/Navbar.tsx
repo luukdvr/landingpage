@@ -2,12 +2,10 @@ import Link from "next/link"
 import { Button } from "../../components/ui/Button"
 
 const links = [
-  { href: "/product", label: "Product" },
-  { href: "/how-it-works", label: "How it works" },
+  { href: "/#features", label: "Features" },
   { href: "/pricing", label: "Pricing" },
-  { href: "/case-studies", label: "Case studies" },
-  { href: "/security", label: "Security" },
-  { href: "/about", label: "About" },
+  { href: "/case-studies", label: "Case Studies" },
+  { href: "/about", label: "Over Ons" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -35,11 +33,11 @@ export function Navbar() {
         </nav>
         
         <div className="flex items-center gap-3">
-          <Link href="/contact">
-            <Button variant="secondary" size="sm">Contact</Button>
+          <Link href="/login">
+            <Button variant="secondary" size="sm">Inloggen</Button>
           </Link>
-          <Link href="/start-trial">
-            <Button size="sm">Start free trial</Button>
+          <Link href="/login">
+            <Button size="sm">Start Gratis</Button>
           </Link>
         </div>
       </div>

@@ -1,16 +1,16 @@
 const testimonials = [
   {
-    quote: "Within 2 weeks I had 12 new meetings. Level2B transformed our sales process.",
+    quote: "Binnen 2 weken had ik 12 nieuwe meetings. Level2B heeft ons sales proces getransformeerd.",
     author: "Jan",
     role: "SaaS Founder",
   },
   {
-    quote: "Finally a tool that delivers: more meetings, less hassle.",
+    quote: "Eindelijk een tool die levert: meer meetings, minder gedoe.",
     author: "Lisa",
     role: "Sales Lead",
   },
   {
-    quote: "The AI templates feel human. Our reply rate has doubled.",
+    quote: "De AI templates voelen menselijk aan. Onze reply rate is verdubbeld.",
     author: "Mark",
     role: "BDR",
   },
@@ -18,24 +18,24 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section className="py-16 bg-slate-50">
+    <section className="py-20 bg-white">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold">What our customers say</h2>
-          <p className="mt-2 text-slate-600">Real results from sales professionals like you.</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Wat onze klanten zeggen</h2>
+          <p className="text-xl text-charcoal-600">Echte resultaten van sales professionals zoals jij.</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map(t => (
-            <div key={t.author} className="bg-white p-6 rounded-xl border border-slate-200">
-              <p className="text-slate-700 mb-4 italic">&ldquo;{t.quote}&rdquo;</p>
+            <div key={t.author} className="bg-gradient-to-br from-terracotta-50 to-white p-8 rounded-xl border border-terracotta-100 hover:shadow-lg transition-shadow">
+              <p className="text-charcoal-700 mb-6 italic text-lg leading-relaxed">&ldquo;{t.quote}&rdquo;</p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center">
-                  <span className="font-semibold text-brand-600">{t.author[0]}</span>
+                <div className="w-12 h-12 rounded-full bg-terracotta-600 flex items-center justify-center">
+                  <span className="font-semibold text-white text-lg">{t.author[0]}</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-sm">{t.author}</p>
-                  <p className="text-xs text-slate-500">{t.role}</p>
+                  <p className="font-semibold">{t.author}</p>
+                  <p className="text-sm text-charcoal-500">{t.role}</p>
                 </div>
               </div>
             </div>

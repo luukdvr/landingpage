@@ -2,25 +2,31 @@ import { Button } from "../../components/ui/Button"
 
 export function CTA() {
   return (
-    <section className="py-16">
+    <section className="py-20">
       <div className="mx-auto max-w-7xl px-4">
-        <div className="bg-gradient-to-br from-brand-600 to-accent-600 rounded-2xl p-12 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to fill your calendar with qualified meetings?
-          </h2>
+        <div className="bg-gradient-to-br from-terracotta-500 to-terracotta-700 rounded-2xl p-12 md:p-16 text-center text-white relative overflow-hidden">
+          {/* Decorative elements */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-terracotta-800/30 rounded-full blur-3xl"></div>
           
-          <p className="text-lg text-white/90 mb-8">
-            Try Level2B free for 14 days. No credit card required. Cancel anytime.
-          </p>
-          
-          <a href="/start-trial">
-            <Button 
-              size="lg" 
-              className="bg-white text-brand-600 hover:bg-slate-50"
-            >
-              Start free trial
-            </Button>
-          </a>
+          <div className="relative z-10">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
+              Klaar om je sales te automatiseren?
+            </h2>
+            
+            <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+              Start vandaag nog met Level2B. Geen creditcard nodig. Begin gratis.
+            </p>
+            
+            <a href="/login">
+              <Button 
+                size="lg" 
+                className="bg-white text-terracotta-600 hover:bg-gray-50 shadow-xl hover:shadow-2xl text-lg px-8 py-4"
+              >
+                Start Gratis
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -4,46 +4,46 @@ import { Button } from "../../components/ui/Button"
 const pains = [
   {
     icon: Frown,
-    title: "Too few meetings on your calendar?",
-    description: "Manual cold emailing takes hours, gets little response, and you miss follow-ups. Your pipeline stays empty.",
+    title: "Te weinig meetings in je agenda?",
+    description: "Handmatige cold emailing kost uren, levert weinig respons op en je mist follow-ups. Je pipeline blijft leeg.",
   },
   {
     icon: Clock,
-    title: "Lost time = lost deals",
-    description: "Every day you don't do outreach, a competitor gets ahead. Sales is a numbers game — but you don't have time to play it.",
+    title: "Verloren tijd = verloren deals",
+    description: "Elke dag dat je geen outreach doet, loopt een concurrent voor. Sales is een nummerspel — maar jij hebt geen tijd om het te spelen.",
   },
   {
     icon: MessageSquareX,
-    title: "Inconsistent messaging hurts your brand",
-    description: "Ad-hoc emails without strategy? Prospects notice. You seem unprofessional and lose trust.",
+    title: "Inconsistente messaging schaadt je merk",
+    description: "Ad-hoc emails zonder strategie? Prospects merken het op. Je oogt onprofessioneel en verliest vertrouwen.",
   },
 ]
 
 export function PainPoints() {
   return (
-    <section className="py-16 bg-slate-50">
+    <section className="py-20 bg-charcoal-50">
       <div className="mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold">Do you recognize this?</h2>
-          <p className="mt-2 text-slate-600">These problems cost you revenue every day.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Herken je dit?</h2>
+          <p className="text-xl text-charcoal-600">Deze problemen kosten je elke dag omzet.</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {pains.map(p => {
             const Icon = p.icon
             return (
-              <div key={p.title} className="bg-white p-6 rounded-xl border border-slate-200">
-                <Icon className="w-10 h-10 text-brand-600 mb-4" />
-                <h3 className="font-semibold text-lg mb-2">{p.title}</h3>
-                <p className="text-slate-600 text-sm">{p.description}</p>
+              <div key={p.title} className="bg-white p-8 rounded-xl border border-charcoal-200 hover:shadow-lg transition-shadow">
+                <Icon className="w-10 h-10 text-terracotta-600 mb-4" />
+                <h3 className="font-semibold text-xl mb-3">{p.title}</h3>
+                <p className="text-charcoal-600 leading-relaxed">{p.description}</p>
               </div>
             )
           })}
         </div>
         
-        <div className="mt-10 text-center">
-          <a href="/start-trial">
-            <Button>Let us solve it for you — start your trial now</Button>
+        <div className="mt-12 text-center">
+          <a href="/login">
+            <Button size="lg">Laat ons het voor je oplossen — start nu</Button>
           </a>
         </div>
       </div>
