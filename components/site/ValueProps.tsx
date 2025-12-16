@@ -35,23 +35,23 @@ const valueProps = [
 
 export function ValueProps() {
   return (
-    <section id=\"features\" className=\"py-20 bg-gradient-to-b from-terracotta-50/30 to-white\">
-      <div className=\"mx-auto max-w-7xl px-4\">
-        <div className=\"text-center mb-16\">
-          <h2 className=\"text-4xl md:text-5xl font-bold mb-4\">Alles wat je nodig hebt om te groeien</h2>
-          <p className=\"text-xl text-charcoal-600\">AI-powered features die je sales proces transformeren</p>
+    <section id="features" className="py-20 bg-gradient-to-b from-terracotta-50/30 to-white">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Alles wat je nodig hebt om te groeien</h2>
+          <p className="text-xl text-charcoal-600">AI-powered features die je sales proces transformeren</p>
         </div>
         
-        <div className=\"grid md:grid-cols-2 lg:grid-cols-3 gap-8\">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {valueProps.map(vp => {
             const Icon = vp.icon
             return (
-              <div key={vp.title} className=\"bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-charcoal-100\">
-                <div className=\"w-14 h-14 bg-terracotta-100 rounded-lg flex items-center justify-center mb-6\">
-                  <Icon className=\"w-7 h-7 text-terracotta-600\" />
+              <div key={vp.title} className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-charcoal-100">
+                <div className="w-14 h-14 bg-terracotta-100 rounded-lg flex items-center justify-center mb-6">
+                  <Icon className="w-7 h-7 text-terracotta-600" />
                 </div>
-                <h3 className=\"text-2xl font-bold text-charcoal-900 mb-4\">{vp.title}</h3>
-                <p className=\"text-charcoal-600 leading-relaxed\">{vp.description}</p>
+                <h3 className="text-2xl font-bold text-charcoal-900 mb-4">{vp.title}</h3>
+                <p className="text-charcoal-600 leading-relaxed">{vp.description}</p>
               </div>
             )
           })}
